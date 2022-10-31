@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAT vs DOG</title>
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="estilo.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Stick+No+Bills&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <main>
+
+        <div class="caixa caixaGato">
+            <figure id="fotosGatos">
+                <img id="fotoGato" src="" alt="Foto de Gato" srcset="">
+            </figure>
+
+            <section id="fatosGatos">
+                <h3 id="fatoGato"></h3>
+            </section>
+        </div>
+
+        <div class="meio">
+            <img class="vs" src="assets/vs.png" alt="VS" srcset="">
+
+            <aside id="aside">
+                <!-- <h2 class="animalPerson">VOCÊ É UM DOGPERSON!</h2> -->
+            </aside>
+        </div>
+
+        <div class="caixa caixaCachorro">
+            <figure id="fotosCachorros">
+                <img id="fotoCachorro" src="" alt="Foto de Cachorro" srcset="">
+            </figure>
+
+            <section id="fatosCachorros">
+                <h3 id="fatoCachorro"></h3>
+            </section>
+        </div>
+
+    </main>
+
+    <footer>
+        <input type="button" value="VOTAR" class="botao botaoGato" onclick="votar(1)">
+
+        <div class="placar">
+            <mark id="pontoGato">
+                <p id="pontuacaoGato">0</p>
+            </mark>
+            <h1>:</h1>
+            <mark>
+                <p id="pontuacaoCachorro">0</p>
+            </mark>
+        </div>
+
+        <input type="button" value="VOTAR" class="botao botaoCachorro" onclick="votar(2)">
+    </footer>
+
+    <script src="codigo.js"></script>
+</body>
+
+</html>
